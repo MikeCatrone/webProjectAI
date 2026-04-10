@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+
+@font-face {
+  font-family: 'Lora';
+  src: url('Lora-Regular') format('ttf'),
+       url('fonts/myfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+.slider {
+    width: 100%;
+    height: 400px;
+    border: 2px solid navy;
+    border-radius: 8px;
+    background-color: rgb(51, 51, 151);
+    overflow-y: hidden;
+   
+   
+}
+
+
+.slider img {
+
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+
+}
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.modal.is-open {
+    display: block;
+}
+
+
+.modal__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 700px;
+    height: 800px;
+    
+    
+}
+
+
+.modal__close {
+    position: absolute;
+    top: 3%;
+    left: 2%;
+}
+
+
+#myHeading h1, h2 {
+    color: navy;
+    font-size: 40px;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+h3 {
+    color: navy;
+    margin-top: 1rem;
+    
+}
+
+h5 {
+    color: navy;
+    margin-bottom: 2rem;
+}
+
+
+.container img {
+    width: 200px;
+
+}
+
+
+#pageContent {
+    margin-bottom: 10rem;
+
+}
+
+
+.gameCover {
+    width: 100px;
+
+}
+
+.gameLarge {
+    border-radius: 10px;
+    width: 500px !important; 
+    height: 300px !important;
+}
+
+
+.descriptionStyle {
+
+    width: 60%;
+    margin: auto;
+}
+
+
+.addCart {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.popup {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+
+
+/* About Page Styles */
+
+#aboutHeading h1, #contactHeading {
+    color:navy;
+    font-family: "Lora";
+    margin-bottom: 5rem;
+}
+
+#aboutHeading img {
+    width: 200px;
+
+}
+
+#aboutHeading {
+    text-align: center;
+}
+
+
+#aboutBox1, #aboutBox2 {
+    border: 2px solid navy;
+    border-radius: 10px;
+    padding: 2rem;
+   
+}
+
+
+
+#aboutBox2 img {
+    border-radius: 10px;
+}
+
+
+#aboutBox1 img {
+    width: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+#gameShopStyle {
+    width: 65% !important;
+}
+
+
+
+/* Contact Page Styles */
+
+.errors {
+   color: red;
+    font-weight:bolder;
+    display: none;  
+    /* display: inline-block to turn back on */
+ }
+
+#form1 {
+    border: 2px solid navy;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+
+#contactHeading, h5 {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+ #submit {
+    width: 200px !important;
+    height: 50px !important;
+    margin-top: 2rem;
+
+ }
+
